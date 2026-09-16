@@ -3,8 +3,8 @@ from rest_framework.generics import get_object_or_404
 from rest_framework.response import Response
 from rest_framework import status
 
-from cinema_project.cinema.models import Movie
-from cinema_project.cinema.serializer import MovieSerializer
+from .models import Movie
+from .serializer import MovieSerializer
 
 
 @api_view(["GET", "POST"])

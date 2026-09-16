@@ -1,5 +1,5 @@
 from django.urls import path
-from cinema_project.cinema import views
+from . import views
 
 app_name = "cinema"
 
